@@ -1,0 +1,36 @@
+# Файл .gitignore для C# проекта
+
+## Игнорировать собранные выходные данные
+bin/
+obj/
+
+## Игнорировать файлы пользователей Visual Studio
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+
+## Игнорировать файлы кэша Visual Studio
+*.suo
+*.userprefs
+
+## Игнорировать файлы пакетов NuGet
+**/[Pp]ackages/*
+*.nupkg
+nuget.exe
+
+## Игнорировать временные файлы
+*.cache
+*.log
+*.tmp
+
+## Игнорировать результаты тестов
+TestResult.xml
+*.trx
+
+## Игнорировать файлы резервных копий
+*.backup
+*.bak
+
+## Игнорировать файлы публикации
+publish/
